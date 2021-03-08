@@ -1,0 +1,132 @@
+body,
+#wrapper {
+  font-family: "Avenir", "Helvetica Neue", "Helvetica", "Arial", "Hiragino Sans",
+    "ヒラギノ角ゴシック", "Yu Gothic", "メイリオ", "ＭＳ Ｐゴシック",
+    "MS PGothic";
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+  background-image: url("IMG_2154.jpg");
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.15);
+  background-blend-mode: lighten;
+}
+
+main {
+  color: #fff;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-bottom: 100px;
+  flex: 1;
+}
+
+h1 {
+  color: #fff;
+  display: inline-block;
+  border-bottom: dotted 2px #a7985f;
+}
+
+li {
+  list-style: none;
+  float: left;
+  padding: 38px 20px;
+}
+
+ul {
+  margin-top: 0;
+}
+
+header {
+  letter-spacing: 0.25em;
+  background-color: transparent;
+  color: #fff;
+  height: 100px;
+  position: sticky;
+  top: 0;
+}
+
+.header-logo {
+  font-size: 28px;
+  float: left;
+  padding: 29px 40px;
+}
+
+.header-list {
+  float: left;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.form-box {
+  margin-top: 30px;
+}
+
+input[type="radio"] {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.result-button {
+  font-family: "Avenir", "Helvetica Neue", "Helvetica", "Arial", "Hiragino Sans",
+    "ヒラギノ角ゴシック", "Yu Gothic", "メイリオ", "ＭＳ Ｐゴシック",
+    "MS PGothic";
+  display: block;
+  margin-top: 30px;
+  position: relative;
+  padding: 10px 50px;
+  text-decoration: none;
+  color: #fff;
+  background: #44402d;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.result-button:active {
+  border: solid 1px #a5956a;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+.result-button:hover {
+  background-color: #6b6342;
+  transition: 0.5s;
+}
+
+.result-word {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.red {
+  color: #fff;
+  text-decoration: underline;
+}
+.red:hover {
+  color: #a5956a;
+  transition: 0.5s;
+}
+.white {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  color: #fff;
+  background-color: #574d38;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  position: fixed;
+  bottom: 0;
+}
